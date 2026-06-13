@@ -1,0 +1,28 @@
+.DS_Store
+
+# Xcode local state
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+*.xcresult
+*.xcarchive
+
+# Build products and packaged apps
+build/
+*.app
+*.ipa
+*.dSYM
+
+# Local tooling caches
+.codegraph/
+
+# Local credentials and imported auth files
+*.env
+.env*
+*auth*.json
+*token*.json
+*credential*.json
+
+# Agent implementation notes
+docs/superpowers/
